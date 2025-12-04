@@ -1,7 +1,10 @@
+const lista = []
+
 for (let i = 1; i <= 10; i++){
     fetch(`https://pokeapi.co/api/v2/pokemon/${i}`)
     .then(response => response.json())
     .then(data =>{
+        lista.push(data)
         const div = document.createElement("div")
         div.classList.add("caja");
         const nombre = document.createElement("p")
