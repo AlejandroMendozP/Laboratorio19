@@ -1,0 +1,12 @@
+body{
+    display: flex;
+    gap: 10px;
+}
+
+.caja{
+    background-color: antiquewhite;
+    width: 10%;
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+}
