@@ -1,8 +1,35 @@
-.caja{
-    background-color: antiquewhite;
-    width: 10%;
-    color: black;
+body {
+    font-family: Arial, sans-serif;
     text-align: center;
-    margin-top: 10px;
+    background: #f0f0f0;
+}
+
+.pokemon-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 20px;
+}
+
+.card {
+    background: white;
+    width: 150px;
     padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px gray;
+}
+
+.card img {
+    width: 120px;
+    height: 120px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
 }
